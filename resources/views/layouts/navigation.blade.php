@@ -11,12 +11,17 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
+
+                <div class="bg-white dark:bg-gray-800 p-4 border-b border-gray-100 dark:border-gray-700">
+                    <div class="flex flex-row mt-4 space-x-8">
+                        <a href="#" class="text-gray-800 dark:text-gray-200 hover:text-blue-500 py-2">Salud y Medicamentos</a>
+                        <a href="#" class="text-gray-800 dark:text-gray-200 hover:text-blue-500 py-2">Alimentos y Bebidas</a>
+                        <a href="#" class="text-gray-800 dark:text-gray-200 hover:text-blue-500 py-2">Belleza</a>
+                        <a href="#" class="text-gray-800 dark:text-gray-200 hover:text-blue-500 py-2">Cuidado Personal</a>
+                        <a href="#" class="text-gray-800 dark:text-gray-200 hover:text-blue-500 py-2">Hogar, Mascotas u Otros</a>
+                        <!-- Añade más enlaces según sea necesario -->
+                    </div>
                 </div>
-            </div>
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">
